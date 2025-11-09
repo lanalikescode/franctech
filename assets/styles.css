@@ -256,32 +256,6 @@ header {
   gap: 1.2rem;
 }
 
-.story-media {
-  display: grid;
-  gap: 0.75rem;
-}
-
-.story-media img {
-  border-radius: 16px;
-  width: 100%;
-  height: auto;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
-}
-
-.story-media figcaption {
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
-.story-media figcaption a {
-  color: var(--primary);
-  font-weight: 600;
-}
-
-.story-media figcaption a:hover {
-  text-decoration: underline;
-}
-
 .story-card h2 {
   font-size: clamp(1.6rem, 3vw, 2.1rem);
   color: var(--secondary);
@@ -314,52 +288,6 @@ header {
   padding: 1.5rem;
   display: grid;
   gap: 1rem;
-}
-
-.comparison-gallery {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.model-card {
-  background: white;
-  border-radius: 18px;
-  border: 1px solid var(--border);
-  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
-  overflow: hidden;
-  display: grid;
-}
-
-.model-card img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.model-card figcaption {
-  display: grid;
-  gap: 0.5rem;
-  padding: 1.2rem 1.4rem 1.4rem;
-}
-
-.model-card figcaption h4 {
-  font-size: 1.1rem;
-  color: var(--secondary);
-}
-
-.model-card figcaption p {
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-.model-card figcaption a {
-  color: var(--primary);
-  font-weight: 600;
-}
-
-.model-card figcaption a:hover {
-  text-decoration: underline;
 }
 
 .table-wrapper {
